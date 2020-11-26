@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+    padding: 48px 0;
+}
+
+.elementContainer {
+    padding: 48px 0;
+    border-top: solid 1px #e7e7e7;
+}
+
+.clickable:hover {
+    cursor: pointer;
+}
+
+.clickable:focus {
+    outline: none;
+}
+
+.elementLabel {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.elementDescription {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: #575757;
+}

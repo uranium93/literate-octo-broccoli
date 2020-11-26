@@ -1,0 +1,82 @@
+.Button {
+    padding: 28px 40px;
+    max-width: 400px;
+    border-radius: 10px;
+    border-width: none;
+    border-style: none;
+    border-color: none;
+    border-image: none;
+    outline: 0;
+}
+
+.small {
+    padding: 16px;
+    max-width: 400px;
+    border-radius: 10px;
+    border-width: none;
+    border-style: none;
+    border-color: none;
+    border-image: none;
+    outline: 0;
+}
+
+.Button:focus {
+    outline: 0;
+}
+
+.contained {
+    background: #2c3ccb;
+}
+
+.small .label {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex: none;
+    order: 0;
+    align-self: center;
+    color: #ffffff;
+}
+
+.big .label {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    flex: none;
+    order: 0;
+    align-self: center;
+}
+
+.contained .label {
+    color: #ffffff;
+}
+
+.outlined {
+    background: #ffffff;
+    border: 2.51585px solid #e7e7e7;
+    box-sizing: border-box;
+    border-radius: 12.5792px;
+}
+
+.outlined .label {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}

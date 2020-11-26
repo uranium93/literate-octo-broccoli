@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    padding: 100px 0;
+}
+
+.container a {
+    font-size: 16px;
+    margin-right: 10px;
+    color: #a2a2a2;
+    text-decoration: underline;
+}
+
+.label {
+    font-family: Inter;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #a2a2a2;
+}

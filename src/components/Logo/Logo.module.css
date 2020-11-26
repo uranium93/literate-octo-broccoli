@@ -1,0 +1,28 @@
+.logoContainer {
+    margin: 4px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.stopeMeeting {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.waste {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration-line: line-through;
+    color: #000000;
+    transform: rotate(-5deg);
+}
